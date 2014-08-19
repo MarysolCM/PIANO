@@ -7,20 +7,21 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>PhoneGap PIANO</name>
+    <name>PIANO INTERACTIVO</name>
 
     <description>
-        Ejemplo para utilizar Plugins
+        Ejemplo para utilizar Plugins DE SONIDOS PARA EL PIANO INTERACTIVO
     </description>
 
     <preference name="phonegap-version" value="3.1.0" />
 	
-    <author href="https://build.phonegap.com" email="support@phonegap.com">
-        Nombre
+    <author href="https://build.phonegap.com" email="marysolmx08@gmail.com">
+      LIC. MARISOL CAMACHO MOTOLINIA
     </author>
 	
 
-		<gap:plugin name="org.apache.cordova.vibration" version="0.3.0" />
-<gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
+	
+<gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" version="1.0" /><!--plugging de audio para que se escuchen las notas musicales lo jala de la pagina-->
 
 </widget>
+<!--permite introducir tiempo para pantalla de incio entre otros-->
